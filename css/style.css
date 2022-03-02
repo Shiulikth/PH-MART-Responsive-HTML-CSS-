@@ -182,3 +182,43 @@ margin-bottom: 3rem;}
     margin-top: 1rem;
     font-size: 1.5rem;
 }
+
+/*----Services Section*/
+
+.our-services{
+    padding: 0 20rem;
+}
+
+.our-services h1{
+    font-size: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+.best{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+    
+}
+
+
+.services img{
+    width: 60%;
+}
+
+.services h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
